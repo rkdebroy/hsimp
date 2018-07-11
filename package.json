@@ -9,13 +9,14 @@
     "url": "http://github.com/howsecureismypassword/hsimp.git"
   },
   "dependencies": {
-    "hsimp-main": "0.1.9",
-    "hsimp-checks": "0.1.2"
+      "hsimp-purescript": "^0.1.1"
   },
   "devDependencies": {
-    "browserify": "8.*",
-    "buster": "0.7.*",
-    "uglify-js": "2.*",
-    "uglifycss": "0.0.11"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
   }
 }
