@@ -22,7 +22,9 @@ module.exports = {
 
     output: {
         filename: "hsimp.min.js",
-        path: path.resolve(__dirname, "dist")
+        path: path.resolve(__dirname, "dist"),
+        libraryTarget: "var",
+        library: "hsimp"
     },
 
     mode: "production"
